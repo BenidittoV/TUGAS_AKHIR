@@ -62,13 +62,13 @@ st.set_page_config(
 st.title("Klasifikasi Multi-Label Ulasan Produk E-Commerce")
 
 st.write(
-    "Prototype ini menggunakan model terbaik hasil fine-tuning: "
-    "IndoBERT dengan metode Full Fine-Tuning Sigmoid-BCE."
+    "Prototype menggunakan model terbaik hasil fine-tuning: "
+    "IndoBERT dengan Full Fine-Tuning Sigmoid-BCE."
 )
 
 review = st.text_area(
     "Masukkan ulasan produk:",
-    placeholder="Contoh: Barang bagus, murah, packing aman, tapi pengiriman lama.",
+    placeholder="Contoh: mahal/ pengiriman cepat/ seller ramah",
     height=120
 )
 
